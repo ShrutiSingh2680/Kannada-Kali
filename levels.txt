@@ -1,0 +1,26 @@
+Levels:
+
+Level 1: basic introduction ( hello , my name is.. , i am from ..)
+Level 2: greetings (good morning, good bye, namaskara, good night)
+Level 3: (a to R) -> 8
+Level 4: (e to ah) -> 8
+Level 5: (ka to na) -> 5
+Level 6: (ca to Na) -> 5
+Level 7: (ta to nA) -> 5
+Level 8: (ta to na) -> 5
+Level 9: (pa to ma) -> 5
+Level 10: (ya to la) -> 5
+Level 11: (sa to ra) -> 6
+Level 12: Numbers-I ( 1 to 10 )
+Level 13: Numbers-II (10 20 30 40 50 60 70 80 90 100)
+Level 14: Family-I (father mother son daughter brother sister)
+Level 15: Family-II (grandfater grandmother granddaughter grandson cousin)
+Level 16: verbs (sit, dance, walk, come, go,etc..)
+Level 17: (he she this that these those)
+Level 18: (what where how when why)
+Level 19: Things: garden door book pen shop tree house
+Level 20: animals: dog cat cow donkey monkey rabbit pig horse
+Level 21: kannada to english translate (model question paper and our question paper questions)
+Level 22: english to kannada translate (model question paper and our question paper questions)
+Level 23: fill in the blanks (model question paper and our question paper questions)
+Level 24: Random question -> final test!

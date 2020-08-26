@@ -1,0 +1,46 @@
+@media only	screen and(max-width:768px)
+{
+	.header .navbar-brand{
+		padding-left: 1rem;
+	}
+
+	.section-1 .row .col-md-6 .panel{
+		position: initial;
+		width: initial;
+		height: initial;
+	}
+
+	.section-2 .cover{
+		background-position: -25vmin -10vmin;
+	}
+
+	.numbers .rect{
+		width:70%;
+		height: 8rem;
+	}
+
+	.numbers .rect h1{
+		font-size: 2rem;
+	}
+
+	.section-3 .team{
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+	}
+}
+
+@media only screen and(max-width: 425px){
+	footer .row .col-md-6{
+		margin-top: 8vmin;
+	}
+}
+
+@media only screen and(max-width: 320px){
+	.section-3 .team .col-md-4 .card{
+		width: 20rem;
+		margin-right: 8vmin;
+	}
+	
+}
+

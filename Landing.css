@@ -1,0 +1,243 @@
+/*google font */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Libre+Baskerville:ital,wght@0,700;1,400&family=Lobster&family=Pacifico&family=Sriracha&display=swap');
+
+*{
+	box-sizing: border-box; /*allows you to include pairing and border in an elements total width and height*/
+}
+
+/*header*/
+header,section{
+	overflow-x: hidden;/*hides all extra spaces*/
+}
+
+:root{
+	--Sriracha:"Sriracha",cursive;
+	--Libre:"Libre",cursive;
+	--Baskerville:"Baskerville",cursive;
+	--Lobster:"Lobster";
+	--bggradient:linear-gradient(to bottom,#1ABC9C,#5DADE2);
+}
+
+header a{
+	font-family: var(--Baskerville);
+	font-size: 0.9em;
+	color: black;
+}
+
+header {
+	background: #1ABC9C;
+	background: var(--bggradient);
+}
+
+header .nav-item{
+	padding-right:10em;
+}
+
+header .nav-item{
+	padding: 1em;
+}
+
+header .navbar-brand{
+	padding-left: 3rem;
+}
+
+header .nav-link:hover{
+	color: lightgrey;
+}
+
+header .row .col-md-7{
+	padding: 8vmin 1vmin;
+}
+
+header .row .col-md-5{
+	padding: 24vmin 1vmin;
+	padding-bottom: 22vmin;
+	font-family: var(--Baskerville);
+}
+
+header .row .col-md-7 img{
+	width: 100%;
+	border-radius: 10px;
+}
+
+header .container .col-md-5 h6{
+	padding: 1vmin;
+	letter-spacing: 4px;
+}
+
+header .container .col-md-5 h1{
+	font-size: 8vmin;
+	font-weight: bold;
+	padding: 0.4em;
+	color: whitesmoke;
+	border: 3px solid black;
+	border-radius: 8px;
+	box-shadow: 3px 3px #FFFFFF;
+	margin: 2px;
+}
+
+header .container .col-md-5 p{
+	padding: 1vmin 5vmin;
+}
+
+/*section-1*/
+.section-1{
+	padding-top: 20vmin 0vmin;
+	margin-top: 40px;
+}
+
+.section-1 .container .card{
+	box-shadow: 10px 10px lightgrey;
+	background-color:#6792A0;
+}
+
+.section-1 .container .card .card-body h5{
+	color: whitesmoke;
+}
+
+.section-1 .container .card .card-body p{
+	color: whitesmoke;
+}
+
+.section-1 .row .col-md-6 .pray img{
+	opacity: 0.8;
+	width: 80%;
+	border-radius: 0.2em;
+}
+
+.section-1 .row .col-md-6 last-child{
+	position: relative;
+}
+
+.section-1 .row .col-md-6 .panel{
+	position:absolute;
+	top:7vmin;
+	left: -18vmin;
+	background: white;
+	border-radius: 3px;
+	text-align: left;
+	padding: 13vmin 5vmin 20vmin 10vmin;
+	box-shadow: 0 25px 42px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.section-1 .row .col-md-6 .panel h1{
+	font-weight: bold;
+	padding: 0.4em 0;
+	font-size: 2em;
+}
+
+.section-1 .row .col-md-6 .panel p{
+	font-size: 0.9em;
+	color: rgba(0,0,0,0.5);
+}
+
+
+/*section 2*/
+
+.cover {
+	width: 100%;
+	height: 55vmin;
+	background: url("aged-brick-wall.jpg");
+	background-position: -24rem -19rem;
+	background-size: 150%;
+	position: relative;
+	margin-top: 10vmin;
+	margin-bottom: 10vmin;
+}
+
+.cover .content {
+	background: rgba(0,0,0,0.7);
+	width: 100%;
+	height: 100%;
+	padding-top: 20vmin;
+}
+
+.cover .content h1{
+	font-family: var(--Baskerville);
+	font-size: 6vmin;
+	color: whitesmoke;
+}
+
+.cover .content p{
+	font-size: 2vmin;
+	color: #e5e5e5;
+
+}
+
+.numbers .rect{
+	position: relative;
+	z-index: 1;
+	background: white;
+	width: 17rem;
+	height: 12rem;
+	padding-top: 3.5rem;
+	margin: 1rem;
+	border-radius: 0.5em;
+	box-shadow: 1px 2px 50px 0 #6792A0;
+}
+
+.numbers{
+	margin-top: -15vmin;
+}
+
+.numbers .rect h5{
+	color: #6792A0;
+}
+
+/*section 3*/
+
+
+.section-3 .container h1{
+	font-size: 6vmin;
+	padding-top: 14vmin;
+	color: #6792A0;
+	font-family: var(--Baskerville)
+}
+
+.section-3 .card-body h4{
+	color: #6792A0;
+}
+
+.section-3 .team{
+	padding:4vmin 6vmin;
+	margin-bottom: 4vmin;
+}
+
+.section-3 .card{
+	width: 60vmin;
+	margin-top: 10vmin;
+
+}
+
+.section-3 .card .card-text{
+	padding: 0.5em;
+}
+
+.border-radius{
+	border-radius: 340px;
+	width: 60%;
+}
+
+/*Footer*/
+footer{
+	background: rgba(0,0,0,0.8);
+	overflow-x: hidden;
+	padding: 7vmin 7vmin;
+}
+
+footer .row h2{
+	color: #5DADE2;
+}
+
+
+/*Sticky navigation*/
+.sticky{
+	position: fixed;
+	top:0;
+	width: 100%;
+	background: rgba(0,0,0,0.4);
+	z-index: 9999;
+	transition: all 1.5s ease;
+	color: white;
+}
