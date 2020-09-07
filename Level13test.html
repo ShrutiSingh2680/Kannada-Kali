@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Level 13 Test</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="Test.css">
+</head>
+<body>
+
+		<div class="home-box custom-box">
+			<h3>Test yourself:</h3>
+			<p><b>LEVEL 13:</b></p>
+			<p>Total no of questions : <span class="total-question"></span></p>
+			<p>You will only get one chance to answer</p>
+			<button type="button" class="btn" onclick="startQuiz()">Start Quiz</button>
+			
+		</div>
+		<div class="question-box custom-box hide">
+			<div class="question-number">
+					
+			</div>
+			<div class="question-text">
+				
+
+			</div>
+			<div class="option-container">
+				
+			</div>
+			<div class="next-question-button">
+				<button type="button" class="btn" onclick="next()">Next</button>
+			</div>
+			<div class="answers-indicator">
+				
+			</div>
+		</div>
+
+		<div class="result-box custom-box hide">
+			<h1>Quiz Result</h1>
+			<table>
+				<tr>
+					<td>Total questions</td>
+					<td><span class="total-question"></span></td>
+				</tr>
+				<tr>
+					<td>Correct</td>
+					<td><span class="total-correct"></span></td>
+				</tr>
+				<tr>
+					<td>Wrong</td>
+					<td><span class="total-wrong"></span></td>
+				</tr>
+				<tr>
+					<td>Percentage</td>
+					<td><span class="total-percentage"></span></td>
+				</tr>
+				<tr>
+					<td>Your total score</td>
+					<td><span class="total-score"></span></td>
+				</tr>
+			</table>
+			<button type="button" class="btn" onclick="goToDashboard()">Dashboard</button>
+		</div>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="level13.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
